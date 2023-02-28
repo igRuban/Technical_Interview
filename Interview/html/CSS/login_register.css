@@ -1,0 +1,130 @@
+body{
+    background-image: url('login.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.loginbox{
+    background: rgb(219, 105, 208);
+    width: 500px;
+    padding: 40px;
+    overflow: hidden;
+    margin-left: 300px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 80px -7px rgb(223, 213, 213);
+    border-radius: 5%;
+}
+.loginbox h2{
+    font-family: 'godofwar';
+    text-transform: uppercase;
+    text-shadow: 5px 1 px 2 px rgb(223, 213, 213);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+
+}
+.loginbox input{
+    width: 89%;
+    display: block;
+    padding: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    border-radius: 15px 50px 30px 5px;
+    text-align: center;
+}
+
+.loginbtn{
+    color: rgb(34, 3, 3);
+    width: 100%;
+    margin: auto;
+    border-radius: 50px 30px 50px 30px ;
+    font-size: 40px;
+    text-transform: uppercase;
+    /* text-shadow: 3px 0px 2px rgb(255, 154, 236); */
+    box-shadow: 0px 0px 80px -7px rgb(46, 3, 3) ;
+    font-weight: bold;
+    font-family: 'godofwar';
+
+
+}
+.loginbtn :hover{
+    background: linear-gradient(#e970db,rgb(233, 173, 226));
+}
+
+.registerbox{
+    background: rgb(219, 105, 208);
+    width: 500px;
+    padding: 40px;
+    overflow: hidden;
+    margin-left: 300px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 80px -7px rgb(223, 213, 213);
+    border-radius: 5%;
+}
+
+.registerbox h2{
+    font-family: 'godofwar';
+    text-transform: uppercase;
+    text-shadow: 5px 1 px 2 px rgb(223, 213, 213);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.registerbox input{
+    width: 89%;
+    display: block;
+    padding: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    border-radius: 15px 50px 30px 5px;
+    text-align: center;
+
+}
+
+.registerbtn{
+    color: rgb(34, 3, 3);
+    width: 100%;
+    margin: auto;
+    border-radius: 50px 30px 50px 30px ;
+    font-size: 40px;
+    text-transform: uppercase;
+    /* text-shadow: 3px 0px 2px rgb(255, 154, 236); */
+    box-shadow: 0px 0px 80px -7px rgb(46, 3, 3) ;
+    font-weight: bold;
+    font-family: 'godofwar';
+ 
+    /* background: linear-gradient(#4);// */
+
+}
+.loginlink{
+    margin-left: 160px;
+    margin-top: 20px;
+}
+.registerlink{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.registerlink span{
+    
+    color: rgb(0, 3, 6);
+    font-size: 20px;
+}
+.registerlink a{
+    color: blue;
+    font-size: 20px;
+}
+.loginlink span{
+    color: rgb(0, 3, 6);
+    font-size: 20px; 
+}
+.loginlink a{
+    color: blue;
+    font-size: 20px;
+}
